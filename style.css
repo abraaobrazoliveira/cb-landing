@@ -1,0 +1,354 @@
+@import url("css/fonts/stylesheet.css");
+
+html{overflow: hidden; max-width: 100%;}
+
+body{
+    max-width: 100%;
+    width: 1920px;
+    margin: 0 auto;
+    height: 100vh;
+    font-family: 'Votorantim Sans';
+    font-weight: normal;
+    overflow-x: hidden;
+        
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Votorantim Sans';
+}
+
+p{
+    font-size: 1.5em;
+    font-family: 'Votorantim Sans';
+    font-weight: normal;
+}
+
+strong{
+    font-family: 'Votorantim Sans';
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+.color-blue{
+    color: #0c07c6;
+}
+
+.font-light{
+    font-family: 'Votorantim Sans';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.font-bold{
+    font-family: 'Votorantim Sans';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.topo{
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: 1070px;
+  background-image: url(images/topo2.png); 
+  background-repeat: no-repeat; 
+}
+
+.shape-roxo {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 480px; 
+    height: 328px; 
+    border-top-left-radius: 150px;
+    background: #550672;
+    -webkit-transform: skew(-23deg); 
+    -moz-transform: skew(-23deg); 
+    -o-transform: skew(-23deg); 
+    transform: skew(-23deg);
+ }
+
+ .shape-azul{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    left:480px;
+    width: 45%; 
+    height: 328px; 
+    /* background-color: rgba(12, 7, 139, 0.76); */
+    background-color: rgba(2, 0, 66, 0.83);
+    -webkit-transform: skew(-23deg); 
+    -moz-transform: skew(-23deg); 
+    -o-transform: skew(-23deg);
+    transform: skew(-23deg);
+
+ }
+
+ .shape-azul-video {
+    position: relative;
+    background-color: #0c07c6;
+    height: 300px;
+    /* width: 411px; */
+    width: 21.40625%;
+    clip-path: polygon(0 0, 100% 0%, 69% 100%, 0% 100%);
+    left: 0;
+ }
+
+ .video-clip1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        position: relative;
+        background-image: url(images/play_video_bg.png);
+        background-color: #ffa200;
+        background-size: cover;
+        width: 989px;
+        clip-path: polygon(12.8% 0%, 100% 0%, 88% 100%, 0% 100%);
+        left: -124px;
+ }
+
+ .pedras{
+     position: absolute;
+     top:150px;
+     right:200px
+ }
+ .botao-newsletter {
+    position: absolute;
+    display: flex;
+    font-size: 1.5em;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    top: 302px;
+    /* left: 246px; */
+    left: 12.8125%;
+    height: 80px;
+    clip-path: polygon(7.8% 0%, 100% 0%, 93% 100%, 0% 100%);
+    background-color: #0c07c6;
+    width: 25.1%;
+}
+
+
+
+
+ .shape-amarelo{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 5%;
+    right: 12%;
+    width: 24.54%; 
+    height: 80px; 
+    background-color: #ffa200;
+    -webkit-transform: skew(-23deg); 
+    -moz-transform: skew(-23deg); 
+    -o-transform: skew(-23deg);
+    transform: skew(-23deg);
+
+ }
+
+ .texto-inside-shape {
+     font-size: 1.5em;
+     /*padding: 0 1.8em 0 6em;*/
+     color: #fff;
+    -webkit-transform: skew(23deg); 
+    -moz-transform: skew(23deg); 
+    -o-transform: skew(23deg);
+    transform: skew(23deg); 
+ }
+
+ .video{
+     position: relative;
+     height: 870px;
+     top:2px;
+ }
+
+ .texto-video{
+     width: 500px;
+     position: absolute;
+     font-weight: 300;
+     color: #828282;
+     top: 450px;
+     left:400px;
+ }
+
+
+ .video-plus{
+     height: 762px;
+     position: relative;
+
+ }
+
+ .circle-flux{
+     position: absolute;
+     left: 0;
+     top: 0;
+     z-index: 1;
+    }
+  .play-roxo{
+    position: absolute;
+    top: 0;
+    left: 514px;
+  }  
+
+ .aluminio-fundo{
+     position: absolute;
+     clip-path: polygon(33% 0, 100% 0, 100% 100%, 0% 100%);
+     height: 760px;
+     /* width: 1180px; */
+     width: 62.200%;
+     right: 0;
+     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(images/aluminio-fundo.png);
+     background-color: rgba(0, 0, 0, 1);
+ }
+
+ .content-text-aluminuin{
+    height: 100%;
+    left: 183px;
+    position: relative;
+ }
+
+ .text-inside-aluminium{
+    color: #fff;
+    position: absolute;
+    bottom: 70px;
+    width: 80%;
+    font-family: 'Votorantim Sans';
+    font-weight: 300;
+    font-size: 1.5em;
+ }
+
+ .img-to-skew{
+    clip-path: polygon(0 0, 100% 0, 45% 100%, 0% 100%);
+    z-index: -1;
+    width: 37.65625%
+ }
+
+ .ebook{
+     position: relative;
+     height: 900px;
+ }
+
+ .ebook .botao-newsletter{
+    position: absolute;
+    display: flex;
+    font-size: 1.5em;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    /* left: 690px; */
+    left: 35.800%;
+    height: 80px;
+    clip-path: polygon(7.8% 0%, 100% 0%, 93% 100%, 0% 100%);
+    background-color: #0c07c6;
+    /* width: 25.1%; */
+ }
+
+ .texto-ebook{
+    width: 500px;
+    position: absolute;
+    font-weight: 300;
+    color: #828282;
+    top: 206px;
+    left: 680px;
+}
+
+.btn-action{
+    font-family: 'Votorantim Sans';
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #828282;
+    border:2px solid #828282;
+    padding: 1.2em 3em;
+}
+
+.caixas{
+    position: absolute;
+    right: 80px;
+    top:400px;
+    
+}
+footer{
+    color: #828282;
+}
+
+footer .social{
+    list-style: none;
+}
+
+
+
+@media only screen and (max-width: 1800px) {
+    .pedras{right: 0}    
+}
+
+@media only screen and (max-width: 1600px) {
+    .pedras{width: 40%;}    
+}
+
+@media only screen and (max-width: 1500px) {
+    .botao-newsletter {
+        position: absolute;
+        display: flex;
+        font-size: 1.5em;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+        top: 0px;
+        left: 690px;
+        left: 35.3%;
+        height: 80px;
+        clip-path: polygon(7.8% 0%, 100% 0%, 93% 100%, 0% 100%);
+        background-color: #0c07c6;
+        width: 33.1%;
+    }
+}
+
+/* @media only screen and (max-width: 1440px) {
+    .texto-inside-shape {
+        font-size: 1.3em;
+    }
+    strong {
+        font-size: 0.9em;
+    }
+
+    .aluminio-fundo {
+        position: absolute;
+        clip-path: polygon(33% 0, 100% 0, 100% 100%, 0% 100%);
+        height: 576px;
+        width: 722px;
+        right: 0;
+        background-image: url(images/aluminio-fundo.png);
+        background-color: rgba(0, 0, 0, 1);
+    }
+    .video-plus {
+        height: 577px;
+        position: relative;
+    }
+
+    .play-roxo {
+     width: 400px;
+    }
+
+    .circle-flux {
+     width: 362px;
+    }
+
+    .botao-newsletter {
+        width: 412px;
+        left:18%
+    }
+} */
+
+ 
+
+
+

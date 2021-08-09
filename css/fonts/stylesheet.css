@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Votorantim Sans';
+    src: url('VotorantimSans-Medium.woff2') format('woff2'),
+        url('VotorantimSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Votorantim Sans';
+    src: url('VotorantimSans-Bold.woff2') format('woff2'),
+        url('VotorantimSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Votorantim Sans';
+    src: url('VotorantimSans-BoldItalic.woff2') format('woff2'),
+        url('VotorantimSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Votorantim Sans';
+    src: url('VotorantimSans-LightItalic.woff2') format('woff2'),
+        url('VotorantimSans-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Votorantim Sans';
+    src: url('VotorantimSans-Light.woff2') format('woff2'),
+        url('VotorantimSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Votorantim Sans';
+    src: url('VotorantimSans-Italic.woff2') format('woff2'),
+        url('VotorantimSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Votorantim Sans';
+    src: url('VotorantimSans-ThinItalic.woff2') format('woff2'),
+        url('VotorantimSans-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Votorantim Sans';
+    src: url('VotorantimSans-Regular.woff2') format('woff2'),
+        url('VotorantimSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Votorantim Sans';
+    src: url('VotorantimSans-Medium.woff2') format('woff2'),
+        url('VotorantimSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Votorantim Sans';
+    src: url('VotorantimSans-Thin.woff2') format('woff2'),
+        url('VotorantimSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Votorantim Sans';
+    src: url('VotorantimSans-MediumItalic.woff2') format('woff2'),
+        url('VotorantimSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
